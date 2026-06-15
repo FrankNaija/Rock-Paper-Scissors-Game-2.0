@@ -1,0 +1,41 @@
+body {
+  background-color: #00f0ff;
+}
+div.count {
+  display: flex;
+  justify-content: space-between;
+}
+div.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  font-size: 4rem;
+  color: blue;
+  font-weight: bold;
+  font-family: "Poppins", "Montserrat", sans-serif;
+}
+div.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+button.container {
+  width: 20%;
+  height: 10vh;
+}
+div.restart {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 750px) {
+  div.buttons {
+    width: 100%;
+  }
+  button.container {
+    width: 30%;
+  }
+}
